@@ -1,8 +1,16 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+header {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightblue;
+    height: 400px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
 }
