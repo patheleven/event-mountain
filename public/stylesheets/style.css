@@ -8,6 +8,14 @@ header {
     text-align: center;
     background-color: lightblue;
     height: 400px;
+    background:-webkit-gradient(linear, 69% 25%, 68% 100%, from(#00B4D5), to(#A3D9EA))
+}
+
+header h1 {
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow:2px 2px 0px #F4B26F;
 }
 
 .main {
