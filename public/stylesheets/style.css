@@ -4,21 +4,43 @@ body {
 }
 
 header {
-    text-transform: uppercase;
-    text-align: center;
-    background-color: lightblue;
-    height: 400px;
-    background:-webkit-gradient(linear, 69% 25%, 68% 100%, from(#00B4D5), to(#A3D9EA))
+    overflow:hidden;
 }
 
-header h1 {
-    font-family: 'Bowlby One SC', sans-serif;
-    font-size: 3em;
+header ul {
+    list-style-type: none;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    background-color: orange;
+    color: darkblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: purple;
     color: white;
-    text-shadow:2px 2px 0px #F4B26F;
 }
 
 .main {
     max-width: 800px;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
 }
