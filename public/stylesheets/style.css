@@ -44,3 +44,7 @@ header li a:hover {
 img {
     max-width: 100%;
 }
+
+p {
+    padding-bottom: 1em;
+}
