@@ -30,7 +30,15 @@ app.configure('production', function(){
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Express'
+    title: 'Event Mountain - Home',
+    subtitle: 'Because every mountain has its valleys'
+  });
+});
+
+app.get('/cylicon', function(req, res){
+  res.render('cylicon', {
+    title: 'Event Mountain - Cylicon Valley',
+    subtitle: 'Hello from Cylicon Valley, in the heart of Spain'
   });
 });
 
