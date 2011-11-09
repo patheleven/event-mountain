@@ -25,7 +25,7 @@ header {
     width: 60%;
     font-size: 3em;
     font-weight: bold;
-    /* font-family: 'Kelly Slab', sans-serif; */
+    font-family: 'Kelly Slab', sans-serif;
     text-transform: uppercase;
     color: #EBEFF2;
 }
@@ -112,7 +112,7 @@ p {
 }
 
 .big {
-    /* font-family: 'Kelly Slab', sans-serif; */
+    font-family: 'Kelly Slab', sans-serif;
     font-size: 2em;
     color: #EBEFF2;
     margin-top: 1em;
