@@ -1,44 +1,96 @@
 body {
     margin: 0;
     font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color:#193540;
 }
 
 header {
     overflow:hidden;
+    padding-bottom: 3em;
 }
 
-header ul {
-    list-style-type: none;
+.logo {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
 }
 
-header li {
+.logo img {
     float: left;
 }
 
-header li a {
-    display: block;
-    padding: 1em;
-    margin: 1em;
-    background-color: orange;
-    color: darkblue;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-header li a:hover {
-    background-color: purple;
-    color: white;
+.logo p {
+    float: right;
+    width: 60%;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Kelly Slab', sans-serif;
+    text-transform: uppercase;
+    color: #EBEFF2;
 }
 
 .main {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.footer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.discover {
+    overflow: hidden;
+    padding-top: 4em;
+}
+
+.discover p {
+    float: left;
+    width: 40%;
+}
+
+.discover img {
+    float: right;
+    width: 60%;
+}
+
+.meet {
+    overflow: hidden;
+    padding-top: 6em;
+}
+
+.meet p {
+    float: right;
+    width: 60%;
+}
+
+.meet img {
+    float: left;
+    width: 30%;
+}
+
+.join {
+    overflow: hidden;
+    padding-top: 6em;
+}
+
+.join p {
+    float: left;
+    width: 70%;
+}
+
+.join img {
+   float: right;
+   width: 26%;
+}
+
+.explore {
+    overflow: hidden;
+    padding-top: 6em;
+    text-align: center;
 }
 
 img {
@@ -47,4 +99,28 @@ img {
 
 p {
     padding-bottom: 1em;
+}
+
+::selection {
+    background-color: yellow;
+    color: #193540;
+}
+
+::-moz-selection {
+    background-color: yellow;
+    color: #193540;
+}
+
+.big {
+    font-family: 'Kelly Slab', sans-serif;
+    font-size: 2em;
+    color: #EBEFF2;
+    margin-top: 1em;
+}
+
+a {
+    color: yellow;
+}
+a:hover {
+    color: aqua;
 }

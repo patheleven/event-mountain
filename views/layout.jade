@@ -4,16 +4,15 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/reset.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Bowlby+One+SC')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Kelly+Slab', type='text/css')
   body
     header
       img(src='/images/event-mountain.png')
-      ul
-        li 
-          a(href='#') Valley One
-        li
-          a(href='#') Valley Two
-        li
-          a(href='#') Valley Three
+      div(class='logo')
+        img(src='/images/event-mountain-logo.png')
+        p Because every mountain has its valleys
     section.main
       != body
+    section.footer
+      p A small project by 
+        a(href='http://path11.com') path11
