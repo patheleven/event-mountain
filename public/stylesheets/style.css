@@ -1,13 +1,54 @@
 body {
     margin: 0;
-    font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
+    font-size: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    color: #EBEFF2;
     background-color:#193540;
 }
 
 header {
     overflow:hidden;
     padding-bottom: 3em;
+}
+
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+h1 {
+    font-family: 'Kelly Slab', sans-serif;
+    line-height:normal;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+a {
+    color: yellow;
+}
+a:hover {
+    color: aqua;
+}
+
+::selection {
+    background-color: yellow;
+    color: #193540;
+}
+
+::-moz-selection {
+    background-color: yellow;
+    color: #193540;
 }
 
 .logo {
@@ -29,6 +70,7 @@ header {
     font-size: 3em;
     font-weight: bold;
     font-family: 'Kelly Slab', sans-serif;
+    line-height:normal;
     text-transform: uppercase;
     color: #EBEFF2;
 }
@@ -37,13 +79,6 @@ header {
     max-width: 800px;
     margin: 0 auto;
     width: 90%
-}
-
-footer {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 3em;
 }
 
 .discover {
@@ -97,36 +132,30 @@ footer {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-}
-
-p {
-    padding-bottom: 1em;
-}
-
-::selection {
-    background-color: yellow;
-    color: #193540;
-}
-
-::-moz-selection {
-    background-color: yellow;
-    color: #193540;
-}
-
 .big {
     font-family: 'Kelly Slab', sans-serif;
+    line-height: normal;
     font-size: 2em;
     color: #EBEFF2;
     margin-top: 1em;
 }
 
-a {
-    color: yellow;
+.interview {
+    overflow: hidden;
 }
-a:hover {
-    color: aqua;
+
+.column1 {
+    padding-top: 2em;
+    overflow: hidden;    
+    float: left;
+    width: 45%;
+}
+
+.column2 {
+    padding-top: 2em;
+    overflow: hidden;
+    float: right;
+    width: 45%;
 }
 
 /* iPad */
