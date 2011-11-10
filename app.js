@@ -38,7 +38,7 @@ app.get('/', function(req, res){
 app.get('/cylicon', function(req, res){
   res.render('cylicon', {
     title: 'Event Mountain - Cylicon Valley',
-    subtitle: 'Hello from Cylicon Valley, in the heart of Spain'
+    subtitle: 'Hello from Cylicon Valley, Valladolid, Spain'
   });
 });
 

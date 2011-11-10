@@ -144,6 +144,10 @@ a:hover {
     overflow: hidden;
 }
 
+.interview img {
+    padding-bottom: 1em;
+}
+
 .column1 {
     padding-top: 2em;
     overflow: hidden;    
@@ -218,6 +222,16 @@ a:hover {
     }
     .big {
         font-size: 1.2em;
+    }
+    .column1 {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .column2 {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
     }
     footer {
         font-size: 0.8em;
