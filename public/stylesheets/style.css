@@ -162,6 +162,34 @@ a:hover {
     width: 45%;
 }
 
+.members {
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+
+.member {
+    width: 12%;
+    float: left;
+    border: 10px solid #A3D9EA;
+    background-color: #A3D9EA;
+    margin: 0.3em;
+}
+
+.member a {
+    color: #193540;
+    text-decoration: none;
+}
+
+.member p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.member:hover {
+    background-color: #FCEA10;
+    border: 10px solid #FCEA10;
+}
+
 /* iPad */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 }
