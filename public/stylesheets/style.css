@@ -32,6 +32,7 @@ h1 {
     line-height:normal;
     font-size: 1.5em;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 a {
@@ -188,6 +189,20 @@ a:hover {
 .member:hover {
     background-color: #FCEA10;
     border: 10px solid #FCEA10;
+}
+
+.figure {
+    border: 10px solid #EBEFF2;
+    background-color: #EBEFF2;
+}
+.figure img {
+    margin: 0 auto;
+    display: block;
+}
+.figure p {
+    font-size: 0.8em;
+    text-align: center;
+    color: #193540;
 }
 
 /* iPad */
