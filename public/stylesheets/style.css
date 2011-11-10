@@ -275,10 +275,13 @@ a:hover {
         width: 90%;
     }
     .member {
-        border: 0.2em solid #A3D9EA;
+        border: 0.3em solid #A3D9EA;
     }
     .member:hover {
-         border: 0.2em solid #FCEA10;
+         border: 0.3em solid #FCEA10;
+    }
+    .member p {
+        font-size: 0.7em;
     }
     footer {
         font-size: 0.8em;
