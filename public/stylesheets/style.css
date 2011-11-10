@@ -171,11 +171,14 @@ a:hover {
 .member {
     width: 12%;
     float: left;
-    border: 10px solid #A3D9EA;
+    border: 0.4em solid #A3D9EA;
     background-color: #A3D9EA;
     margin: 0.3em;
 }
-
+.member:hover {
+    background-color: #FCEA10;
+    border: 0.4em solid #FCEA10;
+}
 .member a {
     color: #193540;
     text-decoration: none;
@@ -186,13 +189,8 @@ a:hover {
     font-size: 0.8em;
 }
 
-.member:hover {
-    background-color: #FCEA10;
-    border: 10px solid #FCEA10;
-}
-
 .figure {
-    border: 10px solid #EBEFF2;
+    border: 0.5em solid #EBEFF2;
     background-color: #EBEFF2;
 }
 .figure img {
@@ -275,6 +273,12 @@ a:hover {
         float: none;
         margin: 0 auto;
         width: 90%;
+    }
+    .member {
+        border: 0.2em solid #A3D9EA;
+    }
+    .member:hover {
+         border: 0.2em solid #FCEA10;
     }
     footer {
         font-size: 0.8em;
