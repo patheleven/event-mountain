@@ -42,6 +42,13 @@ app.get('/cylicon', function(req, res){
   });
 });
 
+app.get('/bellota', function(req, res){
+  res.render('bellota', {
+    title: 'Event Mountain - Bellota Valley',
+    subtitle: 'Hello from Bellota Valley, Extremadura, Spain'
+  });
+});
+
 var port = process.env.PORT || 3000;
 app.listen(port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
