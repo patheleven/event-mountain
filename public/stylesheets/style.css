@@ -128,13 +128,17 @@ a:hover {
 }
 
 .explore {
+    padding: 2em 0;
     overflow: hidden;
     text-align: center;
-    font-family: 'Kelly Slab', sans-serif;
-    font-size: 1.5em;
-    moz-border-radius: 1em;
-    border-radius: 1em;
-    webkit-border-radius: 1em;
+}
+
+.explore img {
+    background-color: #193540;
+}
+
+.explore img:hover {
+    background-color: #264653;
 }
 
 .big {
