@@ -129,8 +129,12 @@ a:hover {
 
 .explore {
     overflow: hidden;
-    padding-top: 3em;
     text-align: center;
+    font-family: 'Kelly Slab', sans-serif;
+    font-size: 1.5em;
+    moz-border-radius: 1em;
+    border-radius: 1em;
+    webkit-border-radius: 1em;
 }
 
 .big {
