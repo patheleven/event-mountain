@@ -19,7 +19,12 @@ This is a [nodeJs](http://nodejs.org) application built with the [express framew
 ### Installing express with npm
 `npm install -g express`
 
-### Resolving event-mountain's dependencies
+### Installing libs to run the tests
+`npm install coffee-script`
+`npm install zombie`
+`npm install -g jasmine-node`
+
+### Resolving runtime dependencies
 From the base directory of this app, run `npm install` 
 
 ### Starting the application
@@ -27,3 +32,6 @@ From the base directory of this app, run `npm install`
 
 If everything is OK, you should see this on the console:
 `Express server listening on port 3000 in development mode`
+
+### Running the tests
+`make test`
