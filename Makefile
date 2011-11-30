@@ -1,4 +1,4 @@
 test:
-	jasmine-node spec
+	jasmine-node --coffee spec
 
 .PHONY: test
