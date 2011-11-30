@@ -18,6 +18,9 @@ describe 'Event Mountain Home Page', ->
   it 'should have a subtitle', ->
     expect(browser.html '.logo').toMatch 'Because every mountain has its valleys'
 
+  it 'should have a footer with a link to path11', ->
+    expect(browser.html 'footer').toMatch '/path11.com'
+
   it 'should have a link to Cylicon Valley', ->
     expect(browser.html '.explore').toMatch '/cylicon'
 
