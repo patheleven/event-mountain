@@ -27,3 +27,18 @@ describe 'Cachirulo Valley', ->
   it 'should tell us about the philosophy and goals', ->
     expect(browser.html '.interview').toMatch /your philosophy/
     expect(browser.html '.interview').toMatch /your goals/
+
+  it 'should tell us about how long they have been working together', ->
+    expect(browser.html '.interview').toMatch /How long have you been working together/
+
+  it 'should tell us about the activities', ->
+    expect(browser.html '.interview').toMatch /What kind of activities do you do?/
+
+  it 'should tell us who can participate', ->
+    expect(browser.html '.interview').toMatch /Can anyone participate/
+
+  it 'should tell us about the sponsors', ->
+    expect(browser.html '.interview').toMatch /Do you have sponsors?/
+
+  it 'should tell us about the future of the valley', ->
+    expect(browser.html '.interview').toMatch /How do you see the future of the Valley?/
