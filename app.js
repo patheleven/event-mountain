@@ -49,13 +49,6 @@ app.get('/bellota', function(req, res){
   });
 });
 
-app.get('/cachirulo', function(req, res){
-  res.render('cachirulo', {
-    title: 'Event Mountain - Cachirulo Valley',
-    subtitle: 'Hello from Cachirulo Valley, Zaragoza, Spain'
-  });
-});
-
 var port = process.env.PORT || 3000;
 app.listen(port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
