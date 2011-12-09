@@ -26,3 +26,6 @@ describe 'Event Mountain Home Page', ->
 
   it 'should have a link to Bellota Valley', ->
     expect(browser.html '.explore').toMatch '/bellota'
+
+  it 'should have a link to Cachirulo Valley', ->
+    expect(browser.html '.explore').toMatch '/cachirulo'
