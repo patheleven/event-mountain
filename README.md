@@ -13,6 +13,11 @@ This is a [nodeJs](http://nodejs.org) application built with the [express framew
 ### Installing Node with homebrew
 `brew install node`
 
+You need to have the 0.4.7 version. You can get it with
+`brew upgrade https://raw.github.com/mxcl/homebrew/cb6a4b4765ca4439eb03cd137cc6cbae143a8c62/Library/Formula/node.rb`
+And then switch to the 0.4.7 version with
+`brew switch node 0.4.7`
+
 ### Installing npm, the node package manager
 `curl http://npmjs.org/install.sh | sh`
 
