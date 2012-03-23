@@ -3,8 +3,16 @@
  * Module dependencies.
  */
 
-var express = require('express');
+var express = require('express'),
+    i18n = require("i18n");
 
+i18n.configure({
+  // setup some locales - other locales default to en silently
+  locales:['en', 'es'],
+
+  // where to register __() and __n() to, might be "global" if you know what you are doing
+  register: global
+});
 var app = module.exports = express.createServer();
 
 // Configuration
@@ -14,6 +22,7 @@ app.configure(function(){
   app.set('view engine', 'jade');
   app.use(express.bodyParser());
   app.use(express.methodOverride());
+  app.use(i18n.init);
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
 });
@@ -30,8 +39,8 @@ app.configure('production', function(){
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Event Mountain - Home',
-    subtitle: 'Because every mountain has its valleys'
+    title: __('Event Mountain - Home'),
+    subtitle: __('Because every mountain has its valleys')
   });
 });
 
