@@ -35,6 +35,7 @@ app.configure('production', function(){
   app.use(express.errorHandler()); 
 });
 
+i18n.setLocale('en');
 // Routes
 
 app.get('/', function(req, res){
@@ -46,22 +47,22 @@ app.get('/', function(req, res){
 
 app.get('/cylicon', function(req, res){
   res.render('cylicon', {
-    title: 'Event Mountain - Cylicon Valley',
-    subtitle: 'Hello from Cylicon Valley, Valladolid, Spain'
+    title: __('Event Mountain - Cylicon Valley'),
+    subtitle: __('Hello from Cylicon Valley, Valladolid, Spain')
   });
 });
 
 app.get('/bellota', function(req, res){
   res.render('bellota', {
-    title: 'Event Mountain - Bellota Valley',
-    subtitle: 'Hello from Bellota Valley, Extremadura, Spain'
+    title: __('Event Mountain - Bellota Valley'),
+    subtitle: __('Hello from Bellota Valley, Extremadura, Spain')
   });
 });
 
 app.get('/cachirulo', function(req, res){
   res.render('cachirulo', {
-    title: 'Event Mountain - Cachirulo Valley',
-    subtitle: 'Hello from Cachirulo Valley, Aragon, Spain'
+    title: __('Event Mountain - Cachirulo Valley'),
+    subtitle: __('Hello from Cachirulo Valley, Aragon, Spain')
   });
 });
 

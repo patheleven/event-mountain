@@ -5,7 +5,7 @@ section.logo
 
 section.interview
   div.column1
-    h1 We are Cylicon Valley!
+    h1#{__('We are Cylicon Valley!')}
     div.members
       div.member
         a(href='http://twitter.com/semurat')
@@ -28,87 +28,76 @@ section.interview
           img(src='/images/amaliahern.png')
           p Amalia
 
-    :markdown
-      How did the idea for an entrepreneurial valley originate?
-      ========================================================
+    h1#{__('How did the idea for an entrepreneurial valley originate?')}
 
-      The original idea came from a group of people of the local agile user group [AgileCyl][].
+    p#{__('The original idea')}  
+       a(href='http://agilecyl.org/') AgileCyL
+         
+    p#{__('We noticed')}  
+    p#{__('We knew')} 
 
-      We noticed that if we only made meetings around agile methodologies we would never reach other groups of professionals. 
-      We knew entrepreneurial people so we wanted to create a place for all these people to share ideas.
 
-      [AgileCyl]: http://agilecyl.org/
-
-      What's the origin of your name?
-      ===============================
+    
+    h1#{__('Origin of your name')}
+      
         
-      This is a funny story actually.
-      We went to an event called [All together now][] during a weekend.
-      In 48 hours, you had to develop a product from scratch.
-      After the event, we wrote a blog post and in the comments someone called us Cylicon Valley.
-      It's a joke, because it sounds like Silicon Valley when you say it in Spanish.
-
-      [All together now]: http://alltogether.es/portada
+    p#{__('Funny story')}
+       a(href='http://alltogether.es/portada') All together now
+    p#{__('48 hours')}  
+    p#{__('After the event')}
 
     img(src='images/cylicon-map.png')
 
-    :markdown
-      What's your philosophy? What are your goals?
-      ============================================
     
-      We want to be a meeting point for people who want to do something. 
-      We want to share technical knowledge, help people to start a project or need help getting sponsorship for their idea. 
-      University, IT, everybody is welcomed.
+    h1#{__('Your philosophy?')}
     
-      How long have you been working together?
-      ========================================
+    p#{__('We want')}
+    p#{__('We want to share')}  
+    p#{__('University, IT, everybody is welcomed')}
     
-      We started not long ago, we are still babies. 
-      We have just a landing page and a twitter account. Every day we build a little bit more.
+    h1#{__('How long have you been working together?')}
+    
+    p#{__('We started not long ago, we are still babies')}
+    p#{__('We have just a landing page and a twitter account. Every day we build a little bit more')}
 
 
   div.column2
-    :markdown
-      What type of activities do you do? Can everyone participate?
-      ============================================================
+    
+    h1#{__('What type of activities do you do?')} 
       
-      We are going to organize talks, workshops and Open Space meetings, everyone is welcome! 
-      Our doors are open for everyone. 
-      We are looking to improve in the development of the new technologies in Castilla y Leon. 
-      We would like to collaborate with the R&D department of the University. 
-      We would like help the creation of jobs in our region. 
-      Nowadays many very good local professionals of Castilla y Leon are working in other regions of Spain which is a pity.
+    p#{__('Organize talks')}
+    p#{__('We are looking to improve in the development of the new technologies in Castilla y Leon')}
+    p#{__('We would like to collaborate with the R&D department of the University')}
+    p#{__('We would like help the creation of jobs in our region')} 
+    p#{__('Nowadays many very good local professionals of Castilla y Leon are working in other regions of Spain which is a pity')}
 
     div.figure
       img(src='/images/cylicon-clojure-class.png')
-      p A recent class on Functional Languages
+      p#{__('A recent class on Functional Languages')}
 
-    :markdown
-      Do you have sponsors?
-      =====================
+    h1#{__('Do you have sponsors?')}
 
-      If you are talking about sponsorship the answer is no. But it doesn't matter.
+    p#{__('If you are talking about sponsorship the answer is no')}
 
-      Many people are helping us, Mario del Valle Guijarro is designing our logo. 
-      We can use the rooms of the centre of innovation of the council here in Valladolid
-      (Centro de Innovacion del Ayuntamiento) for our meetings and workshops. Thanks, [Fernando Burgos][]. 
-      There are other people that encourage us (and help): [Jezis][] and [Manuel][] from IniciadorValladolid, 
-      Pencho from [ExeCyL][]. And of course all people from [AgileCyL][].
+    p#{__('Many people are helping us')} 
+    p#{__('We can use the rooms')}
+      a(href='http://twitter.com/ditelnet') Fernando Burgos
+    p#{__('There are other people')}   
+      a(href='http://twitter.com/Jezis') Jezis, 
+      a(href='http://twitter.com/manuelvl') Manuel, 
+      a(href='http://twitter.com/execyl') Pencho
+    p#{__('And of course all people from')}
+      a(href='http://agilecyl.org') AgileCyl 
     
-      [Fernando Burgos]: http://twitter.com/ditelnet
-      [Jezis]: http://twitter.com/Jezis
-      [Manuel]: http://twitter.com/manuelvl
-      [ExeCyl]: http://twitter.com/execyl
-      [AgileCyl]: http://agilecyl.org/about/
-
-      How do you see the future of the valley?
-      =======================================
-      I see a bright and great future for us. Like all new ventures we are thrilled and have a lot energy to move this project forward. 
     
-      It’s actually quite simple, when there is nothing, everything you do is a guaranteed success. 
-      With the group we have gathered I’m pretty sure we will reach a lot of people and put a lot of professionals 
-      (people with ideas, developers, designers entrepreneurs, freelancers and many more) of our area in contact with each other.
+    h1#{__('How do you see the future of the valley?')}
+   
+    p#{__('I see a bright and great future for us. Like all new ventures we are thrilled and have a lot energy to move this project forward')} 
+    
+    p#{__('Quite simple')} 
+    p#{__('With the group')} 
       
-      And we'll be launching some exciting news at our site very soon. Visit us at [CyliconValley][]
+    p#{__('Visit us')} 
 
-      [CyliconValley]: http://www.cyliconvalley.es/
+      a(href='http://www.cyliconvalley.es/') Cylicon Valley
+
