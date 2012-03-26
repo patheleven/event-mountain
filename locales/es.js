@@ -81,6 +81,10 @@
      "We believe that we have reached": "Creo que hemos conseguido mas de lo que esperabamos alcanzar cuando decidimos comenzar este viaje.",
      "We will continue to grow our community": "Y todo apunta a que seguiremos creciendo y haciendo cosas mas interesantes. Casi todos nuestros eventos se llenan y la gente no para de pedirnos más y hacernos sugerencias.",
      "New people are volunteering to give a talk": "Tenemos voluntarios para dar charlas, organizar talleres. Incluso nos hacen nuevas sugerencias.",
-    "So our future is promising": "sí el futuro es prometedor. De lo que no hay duda es que lo vamos a seguir pasando muy bien durante mucho tiempo."
+    "So our future is promising": "sí el futuro es prometedor. De lo que no hay duda es que lo vamos a seguir pasando muy bien durante mucho tiempo.",
+    "Discover the entrepreneurial valleys around you": "Descubre los valles que existen a tu alrededor",
+    "Meet their founders, their way to work": "Conoce a sus fundadores y cómo trabajan",
+    "Join them and become what you always wanted to be": "Unete a ellos y conseguirás todo lo que te propongas"
+
 
 }
