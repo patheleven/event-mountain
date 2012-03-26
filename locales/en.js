@@ -81,6 +81,10 @@
     "We believe that we have reached": "We believe that we have reached most of what we could expect when we decided to start this journey.",
     "We will continue to grow our community": "We will continue to grow our community and build more interesting things as the time goes. Almost all of our events are over full capacity and people request that we make more of them.",
     "New people are volunteering to give a talk": "New people are volunteering to give a talk, organize a workshop. We are getting new suggestions as well.",
-    "So our future is promising": "So our future is promising. There is no doubt that we will continue to have fun for a long time :)"
+    "So our future is promising": "So our future is promising. There is no doubt that we will continue to have fun for a long time :)",
+    "Discover the entrepreneurial valleys around you": "Discover the entrepreneurial valleys around you",
+    "Meet their founders, their way to work": "Meet their founders, their way to work",
+    "Join them and become what you always wanted to be": "Join them and become what you always wanted to be"
+
 
 }
